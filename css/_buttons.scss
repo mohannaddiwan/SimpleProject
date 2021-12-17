@@ -1,0 +1,25 @@
+.btn{
+   padding:15px 20px;
+   color: $whiteColor;
+   border-radius: 25px;
+    background-color: $yellowColor;
+    transition: background-color .5s ;
+    cursor: pointer;
+    &:hover{
+        background-color: $redColor;
+       
+    }
+}
+
+.btn.Fotter-and-Section{
+    background-color: $orangColor;
+}
+.btn.Fotter-and-Section:hover{
+    background-color: $redColor;
+}
+.btn.yellow-span{
+    background-color: $yellowColor;
+}
+.btn.yellow-span:hover{
+    background-color: $redColor;
+}
